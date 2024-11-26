@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  border: 1px solid black;
+  border: 1px solid rgb(139, 138, 138);
   background: white;
   width: 800px;
   height: 400px;
@@ -18,7 +18,7 @@ body {
 }
 
 .left-container {
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(139, 138, 138);
   background-color: rgb(191, 191, 191);
 
   display: flex;
@@ -31,8 +31,8 @@ body {
 }
 
 .quantity-container {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid rgb(139, 138, 138);
+  border-bottom: 1px solid rgb(139, 138, 138);
   background-color: rgb(175, 171, 171);
   text-align: center;
 
@@ -46,8 +46,8 @@ body {
 }
 
 .obj1 {
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-top: 1px solid rgb(139, 138, 138);
+  border-right: 1px solid rgb(139, 138, 138);
   background-color: rgb(191, 191, 191);
 
   display: flex;
@@ -61,7 +61,6 @@ body {
 
 .quantity-input {
   background-color: rgb(217, 217, 217);
-  color: black;
 
   width: 50%;
   padding: 4px 2px;
@@ -69,6 +68,10 @@ body {
   border: 1px solid rgb(221, 221, 221);
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.quantity-input::placeholder {
+  color: black;
 }
 
 .right-container {
@@ -95,8 +98,8 @@ body {
 }
 
 .obj3 {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
+  border-top: 1px solid rgb(139, 138, 138);
+  border-left: 1px solid rgb(139, 138, 138);
   background-color: rgb(217, 217, 217);
 
   display: flex;
