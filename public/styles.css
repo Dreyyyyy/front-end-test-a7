@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(244, 244, 244);
+}
+
+.container {
+  border: 1px solid black;
+  background: white;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.left-container {
+  border-right: 1px solid black;
+  background-color: rgb(191, 191, 191);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
+
+.quantity-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: rgb(175, 171, 171);
+  text-align: center;
+
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.obj1 {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  background-color: rgb(191, 191, 191);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 8px;
+}
+
+.quantity-input {
+  background-color: rgb(217, 217, 217);
+  color: black;
+
+  width: 50%;
+  padding: 4px 2px;
+  text-align: center;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.right-container {
+  background-color: rgb(230, 230, 230);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  row-gap: 5px;
+  padding: 10px;
+  overflow-y: auto;
+  position: relative;
+  max-height: 100%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  row-gap: 5px;
+  overflow-y: scroll;
+}
+
+.obj3 {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  background-color: rgb(217, 217, 217);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 8px;
+  z-index: 100;
+}
+
+.inner-div {
+  background-color: rgb(207, 205, 205);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.list-item {
+  background-color: rgb(175, 171, 171);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 30px;
+  flex-shrink: 0;
+  width: auto;
+  padding: 10px;
+  margin: 5px;
+}
